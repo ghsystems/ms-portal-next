@@ -1,0 +1,5 @@
+import handler from "@/functions/list-reports";
+
+export const runtime = "nodejs";
+export const GET = handler;
+export const OPTIONS = handler;
